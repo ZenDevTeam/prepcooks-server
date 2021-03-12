@@ -1,6 +1,6 @@
 const { addTestComment, deleteAllComments, allCommentsByCompany, addComment, allCommentsAdmin, deleteCommentById } = require('../controllers/commentController');
 
-const authenticateToken = require('./middleWare.js');
+const authenticateToken = require('./middleware.js');
 
 module.exports = (app) => {
     //creates a test comments
