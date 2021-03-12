@@ -22,10 +22,8 @@ userRoutes(app);
 companyRoutes(app);
 commentRoutes(app);
 
-
-const fs = require('fs');
 const http = require('http');
-const https = require('https');
+
 
 // const privateKey  = fs.readFileSync('./sslcert/key.pem', 'utf8');
 // const certificate = fs.readFileSync('/home/ubuntu/meal_prep_marketplace/backend/sslcert/cert.pem', 'utf8');
