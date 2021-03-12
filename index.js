@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const { MONGOOSEDB } = require('./config.js');
 const app = express();
-const PORT = 3000 || process.env.port;
+const PORT =  process.env.port || 3000;
 
 mongoose.connect(MONGOOSEDB, {
     useUnifiedTopology: true,
