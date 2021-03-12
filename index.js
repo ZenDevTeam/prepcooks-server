@@ -42,9 +42,9 @@ httpServer.listen(PORT);
 console.log("Server is running...")
 /* Redirect http to https */
 
-/*
-var port = 3000;
-app.listen(port, ()=>{
-    console.log(`server is running on port: ` + port)
+
+
+app.listen(PORT, ()=>{
+    console.log(`server is running on port: ` + PORT)
 })
-*/
+
