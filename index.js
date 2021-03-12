@@ -37,7 +37,7 @@ const httpServer = http.createServer(app);
 
 httpServer.listen(PORT);
 // httpsServer.listen(3000);
-httpServer.get('/',(req, res) =>{
+app.get('/',(req, res) =>{
     res.send("hello world");
 })
 
