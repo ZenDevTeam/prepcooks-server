@@ -40,9 +40,7 @@ const httpServer = http.createServer(app);
 httpServer.listen(PORT);
 // httpsServer.listen(3000);
 
-app.get('/',(req, res) =>{
-    res.send("hello world");
-})
+
 console.log("Server is running...")
 /* Redirect http to https */
 
